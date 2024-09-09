@@ -22,4 +22,4 @@ with open("sample.txt", 'r') as file:
     # splits the sentence and count how many were split up
     words += len(line.split(' '))
 # print the average and rounding it down (floor)
-print (f"Average words per line: {floor(words/lines)}")
+print (f"Average words per line: {(words//lines)}")
